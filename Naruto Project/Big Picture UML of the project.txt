@@ -1,0 +1,44 @@
+Authour Sekacorn
+
+
+   Interface (Husk)
++-------------------+
+|    Ninja          |
++------------------------+
+| * Name: string         |
+| * Clan: string         |
+| * Village: string      |
+| * Philosophy: set      |
+| * NinjaTechniques: set |
++------------------------+
+        ^
+        |
+        |
++-------------------+
+|    Naruto         | <---  Object 1 Inheriting Ninja Interface (Husk)
++-------------------+
++-------------------+
+|    Sasuke         | <--- Object 2 Inheriting Ninja  Interface. (Husk)
++-------------------+
+
+
+
+
+
+Optional for More Power Hidden in Database well Lots of Hidden Stuff In the Story line.
+	^
+	|
+	|
++----------------------------+
+|   OracleDatabaseConnection |
++----------------------------+
++---------------------------------------------------+
+| - CheckError(err: OCIError*, status: sword): void |
++---------------------------------------------------------------------------------------------------------------+
+| * ConnectToDatabase(): void                                                                                   |
+| * CloseDatabaseConnection(svcCtx: OCISvcCtx*, srv: OCIServer*, usrSession: OCISession*, err: OCIError*): void |
++---------------------------------------------------------------------------------------------------------------+
+
+Well Mates. I Hope This helps view the Bigger picture of the program. Dont forget to have fun while coding if thats what you like or browsing for fun. Will be doing cornelius Stuff after this.
+Believe it mate, Anything can be done, well no  more like almost done  but not  in  fantasy like Obito was dreaming about because he missed his chances with his childhood buddy.
+Friendzoned guy tries to recreate fantasy to see her again...  Poor guy

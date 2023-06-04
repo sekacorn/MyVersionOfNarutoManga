@@ -1,0 +1,41 @@
+#Author: Sekacorn
+
+
+# Compiler
+CC = g++
+
+# Compiler flags
+CFLAGS = -std=c++11 -Wall
+
+# Include directories
+INCLUDES = -I/path/to/oracle/instantclient/sdk/include
+
+# Library directories
+LFLAGS = -L/path/to/oracle/instantclient/sdk/lib
+
+# Libraries
+LIBS = -lclntsh
+
+# Source files
+SRCS = main.cpp NinjaCharacter.cpp OracleDatabaseConnection.cpp
+
+# Object files
+OBJS = $(SRCS:.cpp=.o)
+
+# Executable name
+TARGET = ninja_app
+
+# Build target
+all: $(TARGET)
+
+# Compile source files
+%.o: %.cpp
+	$(CC) $(CFLAGS) $(INCLUDES) -c $< -o $@
+
+# Link object files to create executable
+$(TARGET): $(OBJS)
+	$(CC) $(LFLAGS) $(OBJS) $(LIBS) -o $(TARGET)
+
+# Clean object files and executable
+clean:
+	rm -f $(OBJS) $(TARGET)
