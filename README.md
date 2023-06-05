@@ -4,7 +4,7 @@ Created  a C++  okay program in which objects dance out in the Main function
 
 Fear not because Help is here,  ok that's another show but here we go 
 
-[Running the Program]
+Running the Program
 =====================================================================================
 Step 1) Make sure  that you have a C++ compiler installed on your system
 
