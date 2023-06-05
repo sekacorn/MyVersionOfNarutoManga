@@ -15,11 +15,11 @@ Step 3) bavigate to the directory  where these program files are located
 Step 4) Compile the C++ files using the following command:
 
 
-   $ g++ -o program Main.cpp NinjaCharacter.cpp OracleDatabaseConnection.cpp -lclntsh
+   ```$ g++ -o program Main.cpp NinjaCharacter.cpp OracleDatabaseConnection.cpp -lclntsh```
    (Replace "program" with your whatever  executable name you may choose)
    
 step 5) if the compilation is  successful, run the program using the following command:
-   $ ./program
+   ```$ ./program```
    (Replace "program" with the name you used in the previous step)
 
 
